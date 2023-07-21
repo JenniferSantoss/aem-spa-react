@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/reactpage/clientlibs"/>
+    <filter root="/apps/reactpage/components"/>
+    <filter root="/apps/reactpage/i18n"/>
+</workspaceFilter>

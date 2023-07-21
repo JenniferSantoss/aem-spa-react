@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/reactpage" mode="merge"/>
+    <filter root="/content/reactpage" mode="merge"/>
+    <filter root="/content/dam/reactpage" mode="merge">
+        <exclude pattern="/content/dam/reactpage(/.*)?"/>
+        <include pattern="/content/dam/reactpage/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/reactpage/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/reactpage" mode="merge"/>
+</workspaceFilter>

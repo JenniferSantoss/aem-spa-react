@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/reactpage",
+        "create path (nt:unstructured) /content/dam/reactpage/jcr:content",
+        "set properties on /content/dam/reactpage/jcr:content\n  set cq:conf{String} to /conf/reactpage\n  set jcr:title{String} to \"SPA React Page\"\nend"
+    ]
+}
